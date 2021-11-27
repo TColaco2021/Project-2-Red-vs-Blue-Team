@@ -20,12 +20,12 @@ Reporting, documentation, and communication.
 
 # Lab Environment
 
-In this unit, we used a pre-designed Red vs Blue lab environment located in Windows Azure Lab Services. 
+In this project, I used a pre-designed Red vs Blue lab environment located in Windows Azure Lab Services. 
 
    # We were able to RDP into the Windows RDP host machine using the following credentials:
 
-    Username: azadmin
-    Password: p4ssw0rd*
+    - Username: azadmin
+    - Password: p4ssw0rd*
     
 # Open the Hyper-V Manager to access the nested machines:
 
@@ -35,18 +35,18 @@ In this unit, we used a pre-designed Red vs Blue lab environment located in Wind
     - Password: vagrant
     - IP Address: 192.168.1.100
 
-   # Kali: A standard Kali Linux machine for use in the penetration test on Day 1.
+   # Kali: A standard Kali Linux machine were used in the penetration test on Day 1.
 
     - Username: root
     - Password: toor
     - IP Address: 192.168.1.90
     
-   # Capstone: Filebeat and Metricbeat are installed and will forward logs to the ELK machine.
+   # Capstone: Filebeat and Metricbeat were installed and forwarded logs to the ELK machine.
 
     - IP Address: 192.168.1.105
     - Please note that this VM wass in the network solely for the purpose of testing alerts.
 
-    # Target 1: Exposes a vulnerable WordPress server.
+   # Target 1: Exposed a vulnerable WordPress server.
 
     - IP Address: 192.168.1.110
 
